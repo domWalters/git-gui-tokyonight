@@ -14,6 +14,17 @@ TBD.
 
 TBD.
 
+## Compatibility
+
+This theme works on:
+
+- `git`: v2.45.2
+- `git-gui`: 0.21.GITGUI
+- Tcl/Tk: 8.6.14
+- Aspell 0.60.8.1
+
+Other versions may work.
+
 ## Inspiration
 
 - [Tokyonight theme for `vscode`](https://github.com/enkia/tokyo-night-vscode-theme)
