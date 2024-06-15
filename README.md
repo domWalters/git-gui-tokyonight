@@ -4,6 +4,8 @@
 
 ![Screenshot](./screenshot.png)
 
+Note: This screenshot is slightly outdated.
+
 ## Install
 
 TBD.
