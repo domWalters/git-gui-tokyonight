@@ -111,7 +111,7 @@ proc style_during_apply_config {} {
         -insertcolor        $colors(-text) \
         -borderwidth        0
 
-    ttk::style element create Combobox.downarrow from default
+    #ttk::style element create Combobox.downarrow from default
     ttk::style configure TCombobox \
         -padding 1 \
         -arrowsize 9p \
@@ -136,8 +136,8 @@ proc style_during_apply_config {} {
     option add *Listbox.selectBackground $colour_light_black
     option add *Listbox.selectForeground $colors(-text)
 
-    ttk::style element create Spinbox.uparrow from default
-    ttk::style element create Spinbox.downarrow from default
+    #ttk::style element create Spinbox.uparrow from default
+    #ttk::style element create Spinbox.downarrow from default
     ttk::style configure TSpinbox \
         -arrowsize 7.5p \
         -padding {1.5p 0 7.5p 0} \
