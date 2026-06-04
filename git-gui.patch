@@ -1,0 +1,26 @@
+--- git-gui
++++ git-gui
+@@ -97,6 +97,7 @@
+ ##
+ ## PATH lookup. Sanitize $PATH, assure exec/open use only that
+ 
++source $::env(HOME)/.config/git-gui/style.tcl
+ if {[is_Windows]} {
+ 	set _path_sep {;}
+ } else {
+@@ -821,6 +822,7 @@
+ 
+ 	bind [winfo class .] <<ThemeChanged>> [list InitTheme]
+ 	pave_toplevel .
++	style_during_apply_config
+ 	color::sync_with_theme
+ 
+ 	global comment_string
+@@ -3721,6 +3723,7 @@
+ 
+ # -- Load window state
+ #
++style_during_load_window_state
+ if {[info exists repo_config(gui.wmstate)]} {
+ 	catch {wm state . $repo_config(gui.wmstate)}
+ }
