@@ -8,7 +8,7 @@ Note: this screenshot has become outdated.
 
 ## Install
 
-TBD.
+Run ./install.sh
 
 ## Issues
 
